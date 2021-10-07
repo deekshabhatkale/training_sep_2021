@@ -9,7 +9,7 @@ public class DembookServiceApplication {
 
 	public static void main(String[] args) {
 		ConfigurableApplicationContext ctx=SpringApplication.run(DembookServiceApplication.class, args);
-	
+		System.out.println("Done");
 		ctx.close();
 	}
 	
